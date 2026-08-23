@@ -1,0 +1,14 @@
+index.html
+  h_b511bd568e713b 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "db77aafeb3c17791a999c577e89696889c40cd39",
+  "prompts": {},
+  "humans": {
+    "h_b511bd568e713b": {
+      "author": "Kai Keinänen <Kai.Keinanen@qvantel.com>"
+    }
+  }
+}
