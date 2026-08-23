@@ -1,1 +1,43 @@
-DE shop
+cat > index.html <<'EOF'
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sirpan tarina</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 760px;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+      line-height: 1.6;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.2rem;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sirpan tarina</h1>
+
+  <p>
+    Neljä tietä Tyrväälle.
+  </p>
+
+  <a class="button"
+     href="Sirpan_tarina_nelja_tieta_Tyrvaalle_A4_v4.pdf">
+    Avaa kirja PDF:nä
+  </a>
+</body>
+</html>
+EOF
